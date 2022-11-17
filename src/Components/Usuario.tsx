@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { persona } from "../Interface/Interface";
+import { persona } from "../Interface";
 const Usuario = () => {
   const [login, setLogin] = useState<persona>({ id: "", nombre: "" });
   const [listaLogin, setListaLogin] = useState<persona[]>([{id:"", nombre:""}])
